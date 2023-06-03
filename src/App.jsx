@@ -1,4 +1,5 @@
 // import { useState } from "react";
+import { Formulario } from "./components/Formulario.jsx";
 
 import "./App.css";
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Examen Parcial</h1>
+        <Formulario />
       </div>
     </>
   );

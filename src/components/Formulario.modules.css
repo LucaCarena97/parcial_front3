@@ -1,0 +1,62 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.titulo {
+  font-size: 3rem;
+  color: rgb(34, 93, 195);
+}
+
+.marca {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.modelo {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#marca {
+  font-size: 1.3rem;
+  width: 20rem;
+}
+
+#modelo {
+  font-size: 1.3rem;
+  width: 20rem;
+}
+
+.boton {
+  font-size: 2rem;
+  background-color: rgba(0, 128, 0, 0.557);
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: rgb(0, 128, 0);
+}
+
+.botonReset {
+  font-size: 2rem;
+  background-color: rgba(121, 41, 41, 0.672);
+  cursor: pointer;
+}
+
+.botonReset:hover {
+  background-color: rgb(121, 41, 41);
+}
+
+.error {
+  color: red;
+  font-size: 1.5rem;
+}
